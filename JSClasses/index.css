@@ -1,0 +1,58 @@
+body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("Assets/snow-background.jpg");
+    background-repeat: no-repeat;
+    /*background-color: aqua;*/
+}
+h1,h2{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+}
+button
+{
+    /* display: flex; */
+    background-color: bisque;
+    height: 40px;
+    width: 150px;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* display: inline-block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 3px;
+    border: 0.5px solid grey;
+    outline: none;  
+    text-align: center;
+       padding: 10px 50px;
+       font-weight: bold;
+    
+}
+.conatianer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+#save-el
+{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+    /* background-color: bisque;
+    height: 40px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border: 0.5px solid grey;
+    outline: none;
+} */
